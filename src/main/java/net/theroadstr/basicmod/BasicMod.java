@@ -3,6 +3,7 @@ package net.theroadstr.basicmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.theroadstr.basicmod.block.ModBlocks;
+import net.theroadstr.basicmod.item.ModItemGroups;
 import net.theroadstr.basicmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,8 @@ public class BasicMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
