@@ -4,6 +4,8 @@
 
   "block.basicmod.pink_garnet_block": "Pink Garnet Block",
   "block.basicmod.raw_pink_garnet_block": "Raw Pink Garnet Block",
+  "block.basicmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.basicmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "itemgroup.basicmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.basicmod.pink_garnet_blocks": "Pink Garnet Blocks"
